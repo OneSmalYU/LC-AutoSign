@@ -12,9 +12,9 @@ TOKEN_LIST = os.getenv('TOKEN_LIST', '')
 SEND_KEY_LIST = os.getenv('SEND_KEY_LIST', '')
 
 # 接口配置
-url = 'https://m.jlc.com/pages-common/integral/index'
-gold_bean_url = "https://m.jlc.com/pages-common/integral/ledger"
-seventh_day_url = "https://m.jlc.com/pages-common/integral/index"
+url = 'https://m.jlc.com/api/activity/sign/signIn?source=3'
+gold_bean_url = "https://m.jlc.com/api/appPlatform/center/assets/selectPersonalAssetsInfo"
+seventh_day_url = "https://m.jlc.com/api/activity/sign/receiveVoucher"
 
 
 # ======== 工具函数 ========
